@@ -1,0 +1,21 @@
+{
+    "mappings": 
+    {
+      "properties": 
+      {
+        "id_film": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "search_as_you_type"
+        },
+        "'profile_path'": {
+          "type": "search_as_you_type"
+        },
+        "character_name": {
+          "type": "search_as_you_type"
+        }
+      }
+    }
+  }
+  

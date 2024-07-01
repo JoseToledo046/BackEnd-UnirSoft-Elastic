@@ -1,0 +1,48 @@
+{
+  "mappings": 
+  {
+    "properties": 
+    {
+      "id": {
+        "type": "integer"
+      },
+      "title": {
+        "type": "search_as_you_type"
+      },
+      "backdrop_path": {
+        "type": "search_as_you_type"
+      },
+      "poster_path": {
+        "type": "search_as_you_type"
+      },
+      "budget": {
+        "type": "double"
+      },
+      "original_language": {
+        "type": "search_as_you_type"
+      },
+      "original_title": {
+        "type": "search_as_you_type"
+      },
+      "release_date": {
+        "type": "date",
+        "format": "yyyy-MM-dd"
+      },
+      "revenue": {
+        "type": "double"
+      },
+      "runtime": {
+        "type": "integer"
+      },
+      "tagline": {
+        "type": "search_as_you_type"
+      },
+      "vote_average": {
+        "type": "double"
+      },
+      "'overview'": {
+        "type": "text"
+      }
+    }
+  }
+}

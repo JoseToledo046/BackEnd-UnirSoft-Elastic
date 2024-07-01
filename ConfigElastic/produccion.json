@@ -1,0 +1,21 @@
+{
+    "mappings": 
+    {
+      "properties": 
+      {
+        "id_film": {
+          "type": "integer"
+        },
+        "id_video": {
+          "type": "search_as_you_type"
+        },
+        "plataforma": {
+          "type": "search_as_you_type"
+        },
+        "name_video": {
+          "type": "search_as_you_type"
+        }
+      }
+    }
+  }
+  
